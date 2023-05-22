@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
   }
 
   render(): JSX.Element {
-    return(
+    return (
       <Html lang="pt-br">
         <Head>
           {/* FONTS */}
@@ -60,7 +60,6 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-   );
+    );
   }
 }
-
